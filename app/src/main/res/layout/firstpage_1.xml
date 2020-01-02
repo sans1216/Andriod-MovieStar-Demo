@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_register">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="207dp"
+            app:srcCompat="@drawable/bg10" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:text="《美丽人生》。喜剧涂上了黑色，欢笑化为了感慨。人生很美丽，爱一个人，会发光。"
+        android:textColor="#D6E5F1"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="298dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/logo" />
+</LinearLayout>

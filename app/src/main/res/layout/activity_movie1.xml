@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.Movie1Activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_back_24dp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/m3" />
+
+                <LinearLayout
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/m_item_title"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="南方车站的聚会"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="（2019）"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="中国大陆 法国/剧情 犯罪/2019-12-06（中国大陆）上映/片长 113分钟" />
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/mc_write"
+                        android:layout_width="55dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:clickable="true"
+                        app:srcCompat="@drawable/pen" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="预告"
+                android:textSize="25sp" />
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:text="综合评分"
+                        android:textAlignment="center"
+                        android:textColor="#FFFBFB" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="7.4"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="你的评分"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/MyScore"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:text="7.6"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="剧情简介"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:text="南方某城市，重案队长刘队（廖凡 饰）重金悬赏在逃罪犯周泽农（胡歌 饰）。陪泳女刘爱爱（桂纶镁 饰） 、周泽农曾经的好友华华（奇道 饰）、五年未见的妻子杨淑俊（万茜 饰），各色人等各怀心事，相继被卷入这场罪与罚的追击旋涡。冒险与爱情，人性与救赎，这场特别的“聚会”该如何收场？善恶有道一念之间。 　　中国导演刁亦男曾凭借前作《白日焰火》获第 64届柏林国际电影节最佳影片金熊奖，凭本片入围第 72届戛纳国际电影节主竞赛单元。"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="演职员"
+                    android:textSize="20sp" />
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/vp_actor"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="20dp"
+                app:cardCornerRadius="4dp">
+
+                <ListView
+                    android:id="@+id/lv_movie_comments"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

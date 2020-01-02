@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.movie_fragment2">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/um1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/um1" />
+
+                    <TextView
+                        android:id="@+id/umt1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="星球大战"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor" />
+
+                    <TextView
+                        android:id="@+id/ums1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="有3123人想看"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/sc8"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_shape"
+                        android:text="加入收藏"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="22dp"
+                        android:textColor="@color/colorWhite" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/um2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/um2" />
+
+                    <TextView
+                        android:id="@+id/umt2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="若与你乘坐海浪之上"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor" />
+
+                    <TextView
+                        android:id="@+id/ums2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="有1043人想看"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/sc9"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_shape"
+                        android:text="加入收藏"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="22dp"
+                        android:textColor="@color/colorWhite" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/um3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/um3" />
+
+                    <TextView
+                        android:id="@+id/umt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="天 火"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor" />
+
+                    <TextView
+                        android:id="@+id/ums3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="有362人想看"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/sc10"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_shape"
+                        android:text="加入收藏"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="22dp"
+                        android:textColor="@color/colorWhite" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/um4"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/um4" />
+
+                    <TextView
+                        android:id="@+id/umt4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="星际冒险"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor" />
+
+                    <TextView
+
+                        android:id="@+id/ums4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="有402人想看"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/sc11"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_shape"
+                        android:text="加入收藏"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="22dp"
+                        android:textColor="@color/colorWhite" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/um5"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/um5" />
+
+                    <TextView
+                        android:id="@+id/umt5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="教授与疯子"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor" />
+
+                    <TextView
+                        android:id="@+id/ms5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="有43人想看"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/sc12"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_shape"
+                        android:text="加入收藏"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="22dp"
+                        android:textColor="@color/colorWhite" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/um6"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/um6" />
+
+                    <TextView
+                        android:id="@+id/umt6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Miss Americana"
+                        android:textAlignment="center"
+                        android:textColor="@color/textColor" />
+
+                    <TextView
+                        android:id="@+id/ms6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="有6893人想看"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/sc7"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/round_shape"
+                        android:text="加入收藏"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="22dp"
+                        android:textColor="@color/colorWhite" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>

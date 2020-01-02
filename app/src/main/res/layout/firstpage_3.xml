@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_register">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="206dp"
+            app:srcCompat="@drawable/bg2" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="450dp"
+        android:text="“I am the King of the world”"
+        android:textColor="#93B0C7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="470dp"
+        android:text="&quot;Who's on first&quot;"
+        android:textColor="#93B0C7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="492dp"
+        android:text='"Attica!Attica!"'
+        android:textColor="#93B0C7" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="492dp"
+        android:text='"Listen to them.Children of the night.What music they make."'
+        android:textColor="#93B0C7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="362dp"
+        android:text="My precious"
+        android:textColor="#93B0C7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="420dp"
+        android:text='"Nobody puts Baby in a corner"'
+        android:textColor="#93B0C7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="360dp"
+        android:text='"Snap out of it!"'
+        android:textColor="#93B0C7" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="380dp"
+        android:text='"Life is a banquet,and most ppor suckers are starving to death"'
+        android:textColor="#93B0C7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="290dp"
+        android:text="赶快进入你的MovieStar世界吧"
+        android:textColor="#CEFFFFFF"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_GotoMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="20dp"
+        android:background="#D5F2F8FD"
+        android:text="点进进入"
+        android:textColor="#3B668B" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="298dp"
+        android:layout_marginTop="370dp"
+        app:srcCompat="@drawable/logo" />
+</FrameLayout>

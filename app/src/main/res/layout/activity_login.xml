@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_register"
+    tools:context=".ui.LoginActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="40dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/icon_login"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icon">
+
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:id="@+id/edt_name_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/cv_login"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/bg_et_register"
+            android:paddingLeft="15dp"
+            android:hint="请输入用户名"
+            android:textColor="#000"
+            android:textSize="13sp"
+            />
+
+        <EditText
+            android:id="@+id/edt_pwd_login"
+            android:background="@drawable/bg_et_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/edt_name_login"
+            android:layout_marginRight="40dp"
+            android:hint="请输入密码"
+            android:paddingLeft="15dp"
+            android:textColor="#000"
+            android:textSize="13sp"/>
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/edt_pwd_login"
+            android:layout_marginRight="40dp"
+            android:textColor="#FFF"
+            android:textSize="13sp"
+            android:text="登陆"
+            android:textAllCaps="false"
+            android:background="@drawable/bg_btn_register"
+            ></Button>
+
+        <TextView
+            android:id="@+id/GoToRegister"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_below="@id/btn_login"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:text="返回注册"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="14sp"></TextView>
+    </RelativeLayout>
+
+</LinearLayout>

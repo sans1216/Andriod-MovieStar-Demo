@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.movie_fragment1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/m1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/m3" />
+
+                <TextView
+                    android:id="@+id/mt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="南方车站的聚会"
+                    android:textAlignment="center"
+                    android:textColor="@color/textColor" />
+
+                <TextView
+                    android:id="@+id/ms1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="豆瓣：7.5"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/sc1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_shape"
+                    android:text="加入收藏"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="22dp"
+                    android:textColor="@color/colorWhite" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/m2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/m2" />
+
+                <TextView
+                    android:id="@+id/mt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="小 丑"
+                    android:textAlignment="center"
+                    android:textColor="@color/textColor" />
+
+                <TextView
+                    android:id="@+id/ms2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="豆瓣：8.8"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/sc2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_shape"
+                    android:text="加入收藏"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="22dp"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/m3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/m1" />
+
+                <TextView
+                    android:id="@+id/mt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="少年的你"
+                    android:textAlignment="center"
+                    android:textColor="@color/textColor" />
+
+                <TextView
+                    android:id="@+id/ms3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="豆瓣：7.7"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/sc3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_shape"
+                    android:text="加入收藏"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="22dp"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/m4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/m4" />
+
+                <TextView
+                    android:id="@+id/mt4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="爱尔兰人"
+                    android:textAlignment="center"
+                    android:textColor="@color/textColor" />
+
+                <TextView
+                    android:id="@+id/ms4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="豆瓣：8.9"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/sc4"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_shape"
+                    android:text="加入收藏"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="22dp"
+                    android:textColor="@color/colorWhite" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/m5"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/m5" />
+
+                <TextView
+                    android:id="@+id/mt5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="海上钢琴师"
+                    android:textAlignment="center"
+                    android:textColor="@color/textColor" />
+
+                <TextView
+                    android:id="@+id/ms5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="豆瓣：9.3"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/sc5"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_shape"
+                    android:text="加入收藏"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="22dp"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/m6"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/m6" />
+
+                <TextView
+                    android:id="@+id/mt6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="利刃出鞘"
+                    android:textAlignment="center"
+                    android:textColor="@color/textColor" />
+
+                <TextView
+                    android:id="@+id/ms6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="豆瓣：8.3"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/sc6"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_shape"
+                    android:text="加入收藏"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="22dp"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
